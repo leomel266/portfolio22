@@ -1,8 +1,8 @@
 import React from "react";
 import "./Portfolio.css";
 import ecommerce from "../../assets/ecommerce.png";
-import burger from "../../assets/burger1.png";
 import academlo from "../../assets/academlo.png";
+import weather from "../../assets/weather.png";
 
 const data = [
   {
@@ -21,10 +21,10 @@ const data = [
   },
   {
     id: 3,
-    img: burger,
-    title: "E-Commerce (static)",
-    github: "https://github.com/leomel266/Burgers-Melchiori",
-    demo: "https://burgesas.netlify.app/",
+    img: weather,
+    title: "Weather App",
+    github: "https://github.com/leomel266/weatherapp",
+    demo: "https://helpful-torrone-254391.netlify.app/",
   },
 ];
 
