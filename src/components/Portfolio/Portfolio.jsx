@@ -1,38 +1,30 @@
-import React from "react";
-import "./Portfolio.css";
-import ecommerce from "../../assets/ecommerce.png";
-import academlo from "../../assets/academlo.png";
-import weather from "../../assets/weather.png";
-import ecommerce6 from "../../assets/6.png";
+import React from 'react';
+import './Portfolio.css';
+import academlo from '../../assets/academlo.png';
+import weather from '../../assets/weather.png';
+import ecommerce6 from '../../assets/6.png';
 
 const data = [
   {
     id: 1,
     img: ecommerce6,
-    title: "E-Commerce",
-    github: "https://github.com/leomel266/ecommerce6",
-    demo: "https://ecommerce6melchiori.netlify.app/",
+    title: 'E-Commerce',
+    github: 'https://github.com/leomel266/ecommerce6',
+    demo: 'https://ecommerce6melchiori.netlify.app/',
   },
   {
     id: 2,
     img: academlo,
-    title: "E-Commerce",
-    github: "https://github.com/leomel266/academloEcommerce",
-    demo: "https://melchioriacademlo.netlify.app/",
-  },
-  {
-    id: 3,
-    img: ecommerce,
-    title: "E-Commerce",
-    github: "https://github.com/leomel266/Ecommerce-Melchiori",
-    demo: "https://flahsagromelchiori.netlify.app/",
+    title: 'E-Commerce',
+    github: 'https://github.com/leomel266/academloEcommerce',
+    demo: 'https://melchioriacademlo.netlify.app/',
   },
   {
     id: 4,
     img: weather,
-    title: "Weather App",
-    github: "https://github.com/leomel266/weatherapp",
-    demo: "https://helpful-torrone-254391.netlify.app/",
+    title: 'Weather App',
+    github: 'https://github.com/leomel266/weatherapp',
+    demo: 'https://helpful-torrone-254391.netlify.app/',
   },
 ];
 
