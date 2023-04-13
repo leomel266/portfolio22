@@ -3,24 +3,40 @@ import './Portfolio.css';
 import academlo from '../../assets/academlo.png';
 import weather from '../../assets/weather.png';
 import ecommerce6 from '../../assets/6.png';
+import poke from '../../assets/poke.png';
+import popu from '../../assets/poke.png';
 
 const data = [
   {
     id: 1,
+    img: popu,
+    title: 'Tourism',
+    github: 'https://github.com/miguelrios02/encuestas-informacion',
+    demo: 'https://encuestas-informacion-56xtykx6q-miguelrios02.vercel.app/',
+  },
+  {
+    id: 2,
     img: ecommerce6,
     title: 'E-Commerce',
     github: 'https://github.com/leomel266/ecommerce6',
     demo: 'https://ecommerce6melchiori.netlify.app/',
   },
   {
-    id: 2,
+    id: 3,
+    img: poke,
+    title: 'E-Commerce',
+    github: 'https://github.com/leomel266/entregable5',
+    demo: 'https://melchioripokemons.netlify.app/',
+  },
+  {
+    id: 4,
     img: academlo,
     title: 'E-Commerce',
     github: 'https://github.com/leomel266/academloEcommerce',
     demo: 'https://melchioriacademlo.netlify.app/',
   },
   {
-    id: 4,
+    id: 5,
     img: weather,
     title: 'Weather App',
     github: 'https://github.com/leomel266/weatherapp',
