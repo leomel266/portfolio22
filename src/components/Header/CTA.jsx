@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 /*Importar el CV */
-import CV from "../../assets/leonardo melchiori.pdf";
+import CV from '../../assets/CV_LeonardoMelchiori.pdf';
 
 const CTA = () => {
   return (
