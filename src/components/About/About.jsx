@@ -21,7 +21,7 @@ const About = () => {
               <FiUsers className='about__icon' />
               <h5>Experience</h5>
               <small>
-                During my education, I have had the opportunity to work on
+                I have had the opportunity to work on
                 various projects that have allowed me to develop skills in HTML,
                 CSS, JavaScript, React, Node.js, and MongoDB. In addition, I
                 have completed several courses and certifications in FullStack
