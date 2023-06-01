@@ -12,7 +12,7 @@ const data = [
     img: popu,
     title: 'Tourism',
     github: 'https://github.com/miguelrios02/encuestas-informacion',
-    demo: 'https://encuestas-informacion-56xtykx6q-miguelrios02.vercel.app/',
+    demo: 'https://paracuandoqueretaro.netlify.app/',
   },
   {
     id: 2,
