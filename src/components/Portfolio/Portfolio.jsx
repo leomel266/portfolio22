@@ -5,15 +5,9 @@ import weather from '../../assets/weather.png';
 import ecommerce6 from '../../assets/6.png';
 import poke from '../../assets/poke.png';
 import popu from '../../assets/popu.png';
+import list from '../../assets/list.png';
 
 const data = [
-  {
-    id: 1,
-    img: popu,
-    title: 'Tourism',
-    github: 'https://github.com/miguelrios02/encuestas-informacion',
-    demo: 'https://paracuandoqueretaro.netlify.app/',
-  },
   {
     id: 2,
     img: ecommerce6,
@@ -22,18 +16,32 @@ const data = [
     demo: 'https://ecommerce6melchiori.netlify.app/',
   },
   {
-    id: 3,
-    img: poke,
-    title: 'E-Commerce',
-    github: 'https://github.com/leomel266/entregable5',
-    demo: 'https://melchioripokemons.netlify.app/',
-  },
-  {
     id: 4,
     img: academlo,
     title: 'E-Commerce',
     github: 'https://github.com/leomel266/academloEcommerce',
     demo: 'https://melchioriacademlo.netlify.app/',
+  },
+  {
+    id: 1,
+    img: popu,
+    title: 'Tourism',
+    github: 'https://github.com/miguelrios02/encuestas-informacion',
+    demo: 'https://paracuandoqueretaro.netlify.app/',
+  },
+  {
+    id: 6,
+    img: list,
+    title: 'Test React',
+    github: 'https://github.com/leomel266/react-test-list',
+    demo: 'https://react-list-test.netlify.app/',
+  },
+  {
+    id: 3,
+    img: poke,
+    title: 'E-Commerce',
+    github: 'https://github.com/leomel266/entregable5',
+    demo: 'https://melchioripokemons.netlify.app/',
   },
   {
     id: 5,
