@@ -21,12 +21,11 @@ const About = () => {
               <FiUsers className='about__icon' />
               <h5>Experience</h5>
               <small>
-                I have had the opportunity to work on
-                various projects that have allowed me to develop skills in HTML,
-                CSS, JavaScript, React, Node.js, and MongoDB. In addition, I
-                have completed several courses and certifications in FullStack
-                technologies, which has allowed me to develop a solid knowledge
-                of the field.
+                I have had the opportunity to work on various projects that have
+                allowed me to develop skills in HTML, CSS, JavaScript, React,
+                Node.js, and MongoDB. In addition, I have completed several
+                courses and certifications in FullStack technologies, which has
+                allowed me to develop a solid knowledge of the field.
               </small>
             </article>
             <article className='about__card'>
@@ -38,25 +37,16 @@ const About = () => {
               </small>
             </article>
           </div>
-          <p>
-            I am a passionate, self-directed FullStack developer with a strong
-            background in web development technologies. I love solving complex
-            problems and creating innovative solutions to improve the user
-            experience. During my education, I have had the opportunity to work
-            on various projects that have allowed me to develop skills in HTML,
-            CSS, JavaScript, React, Node.js, and MongoDB. In addition, I have
-            completed several courses and certifications in FullStack
-            technologies, which has allowed me to develop a solid knowledge of
-            the field. I am a goal-oriented person and I like to work as a team
-            to achieve outstanding results. I am comfortable working in
-            fast-paced, dynamic environments and am always looking to learn and
-            grow as a developer. I am interested in working in a challenging and
-            constantly evolving work environment, in which I can continue to
-            develop my skills and knowledge. Being a FullStack developer, I have
-            a balanced approach to the technical and visual aspects of a website
-            or application. I hope to be able to contribute my skills and
-            knowledge to a team and contribute to the achievement of the
-            company's goals.
+        </div>
+        <div className='about__text'>
+          <p className='about__text-p'>
+            Passionate, self-directed FullStack developer with a strong
+            background in web technologies. Skilled in HTML, CSS, JavaScript,
+            React, Node.js, and MongoDB. Completed multiple FullStack courses
+            and certifications. Goal-oriented team player, thriving in
+            fast-paced environments. Eager to learn and grow as a developer.
+            Seeking a challenging, evolving work environment to contribute
+            skills and achieve company goals.
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's Talk

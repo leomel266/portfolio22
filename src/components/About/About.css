@@ -45,6 +45,12 @@
   cursor: default;
 }
 
+.about__text {
+  display: grid;
+  place-items: center;
+  width: 100%;
+}
+
 .about__icon {
   color: var(--color-primary);
   font-size: 1.4rem;

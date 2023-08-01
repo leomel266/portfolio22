@@ -1,11 +1,12 @@
-import React from "react";
-import { BsLinkedin } from "react-icons/bs";
-import { FaGithub } from "react-icons/fa";
+import React from 'react';
+import { BsLinkedin } from 'react-icons/bs';
+import { FaGithub } from 'react-icons/fa';
 
 const HeaderSocials = () => {
   return (
     <div className='header__socials'>
       <a
+        className='header__social-icon'
         href='https://www.linkedin.com/in/leonardo-melchiori-013678225/'
         target='_blank'
         rel='noopener noreferrer'>

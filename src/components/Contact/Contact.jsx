@@ -1,11 +1,11 @@
-import React from "react";
-import "./Contact.css";
-import { MdOutlineMail } from "react-icons/md";
-import { RiMessengerLine } from "react-icons/ri";
-import { BsWhatsapp } from "react-icons/bs";
-import { useRef } from "react";
-import emailjs from "emailjs-com";
-import { toast, Toaster } from "react-hot-toast";
+import React from 'react';
+import './Contact.css';
+import { MdOutlineMail } from 'react-icons/md';
+import { RiMessengerLine } from 'react-icons/ri';
+import { BsWhatsapp } from 'react-icons/bs';
+import { useRef } from 'react';
+import emailjs from 'emailjs-com';
+import { toast, Toaster } from 'react-hot-toast';
 
 const Contact = () => {
   const form = useRef();
@@ -14,7 +14,7 @@ const Contact = () => {
     e.preventDefault();
     const addAlert = () => {
       toast.success(
-        "Thank you very much for contacting me, I will contact you shortly so I can talk to you",
+        'Thank you very much for contacting me, I will contact you shortly so I can talk to you',
         {
           duration: 5000,
         }
@@ -23,10 +23,10 @@ const Contact = () => {
 
     emailjs
       .sendForm(
-        "service_w07x2il",
-        "template_03ssudc",
+        'service_w07x2il',
+        'template_03ssudc',
         form.current,
-        "mCfCRNTY_MnTAcN7v"
+        'mCfCRNTY_MnTAcN7v'
       )
       .then(
         (result) => {
@@ -76,7 +76,7 @@ const Contact = () => {
             <h4>WhatsApp</h4>
             <h5>Write me</h5>
             <a
-              href='https://api.whatsapp.com/send?phone=+5492804608226'
+              href='https://wa.me/+542804608226'
               target='_blank'
               rel='noopener noreferrer'>
               Send A Message
