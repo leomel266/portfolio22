@@ -1,6 +1,6 @@
 import React from 'react';
 import './Portfolio.css';
-import academlo from '../../assets/academlo.png';
+import academlo from '../../assets/acastore.png';
 import weather from '../../assets/weather.png';
 import ecommerce6 from '../../assets/6.png';
 import poke from '../../assets/poke.png';
