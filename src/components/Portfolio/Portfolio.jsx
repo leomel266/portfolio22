@@ -4,7 +4,7 @@ import academlo from '../../assets/academlo.png';
 import weather from '../../assets/weather.png';
 import ecommerce6 from '../../assets/6.png';
 import poke from '../../assets/poke.png';
-import popu from '../../assets/popu.png';
+import popu from '../../assets/paracuan.png';
 import buscador from '../../assets/buscador.png';
 
 const data = [
