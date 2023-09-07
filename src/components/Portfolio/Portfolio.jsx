@@ -5,7 +5,7 @@ import weather from '../../assets/weather.png';
 import ecommerce6 from '../../assets/6.png';
 import poke from '../../assets/poke.png';
 import popu from '../../assets/popu.png';
-import list from '../../assets/list.png';
+import buscador from '../../assets/buscador.png';
 
 const data = [
   {
@@ -23,18 +23,18 @@ const data = [
     demo: 'https://melchioriacademlo.netlify.app/',
   },
   {
+    id: 6,
+    img: buscador,
+    title: 'Movies Search',
+    github: 'https://github.com/leomel266/movies',
+    demo: 'https://movies-search-test.netlify.app/',
+  },
+  {
     id: 1,
     img: popu,
     title: 'Tourism',
     github: 'https://github.com/miguelrios02/encuestas-informacion',
     demo: 'https://paracuandoqueretaro.netlify.app/',
-  },
-  {
-    id: 6,
-    img: list,
-    title: 'Test React',
-    github: 'https://github.com/leomel266/react-test-list',
-    demo: 'https://react-list-test.netlify.app/',
   },
   {
     id: 3,
