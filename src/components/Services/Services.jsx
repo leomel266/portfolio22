@@ -29,7 +29,7 @@ const Services = () => {
             </li>
             <li>
               <BsCheck2 className='service__list-icon' />
-              <p>Productividad y gestión del tiempo</p>
+              <p>Productivity and time management</p>
             </li>
           </ul>
         </article>
