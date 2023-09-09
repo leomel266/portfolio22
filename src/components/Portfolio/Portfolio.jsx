@@ -9,11 +9,11 @@ import buscador from '../../assets/buscador.png';
 
 const data = [
   {
-    id: 2,
-    img: ecommerce6,
-    title: 'E-Commerce',
-    github: 'https://github.com/leomel266/ecommerce6',
-    demo: 'https://ecommerce6melchiori.netlify.app/',
+    id: 1,
+    img: popu,
+    title: 'Tourism',
+    github: 'https://github.com/miguelrios02/encuestas-informacion',
+    demo: 'https://paracuandoqueretaro.netlify.app/',
   },
   {
     id: 4,
@@ -30,11 +30,11 @@ const data = [
     demo: 'https://movies-search-test.netlify.app/',
   },
   {
-    id: 1,
-    img: popu,
-    title: 'Tourism',
-    github: 'https://github.com/miguelrios02/encuestas-informacion',
-    demo: 'https://paracuandoqueretaro.netlify.app/',
+    id: 2,
+    img: ecommerce6,
+    title: 'E-Commerce',
+    github: 'https://github.com/leomel266/ecommerce6',
+    demo: 'https://ecommerce6melchiori.netlify.app/',
   },
   {
     id: 3,
